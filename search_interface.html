@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drama ↔ News ↔ Image Search</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    select,
+    button {
+      padding: 5px;
+      font-size: 1em;
+      margin-right: 5px;
+    }
+
+    .results .item {
+      margin: 10px 0;
+    }
+
+    img {
+      max-width: 160px;
+      cursor: pointer;
+      margin: 5px;
+      border: 2px solid transparent;
+    }
+
+    img:hover {
+      border-color: #007acc;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>：Drama → News → Image → Drama</h1>
+
+  <!-- 1: Drama → News -->
+  <div class="section">
+    <label for="dramaSelect">1) choose Drama → search News</label>
+    <select id="dramaSelect"></select>
+    <button onclick="searchNews()">Search News</button>
+  </div>
+
+  <!-- 2: News → Image -->
+  <div class="section" id="news-section" style="display:none;">
+    <label for="newsSelect">2) choose News → search Image</label>
+    <select id="newsSelect"></select>
+    <button onclick="searchImages()">Search Images</button>
+  </div>
+
+  <!-- 3: Image → Drama -->
+  <div class="section" id="image-section" style="display:none;">
+    <label>3) click Image → search Drama</label>
+    <div id="imageResults" class="results"></div>
+  </div>
+
+  <!-- 4: Show Drama -->
+  <div class="section" id="drama2-section" style="display:none;">
+    <label>4) match Drama Texts</label>
+    <div id="dramaResults" class="results"></div>
+  </div>
+
+  <script>
+    let drama_texts, news_texts, image_names;
+    let matches_drama2news, matches_news2img_idx;
+    let news2drama = {}, img2news = {};
+
+    // populate
+    function populate(id, arr) {
+      const sel = document.getElementById(id);
+      sel.innerHTML = '';
+      arr.forEach((txt, i) => {
+        const opt = document.createElement('option');
+        opt.value = i;
+        opt.textContent = txt.length > 80 ? txt.slice(0, 80) + '…' : txt;
+        sel.appendChild(opt);
+      });
+    }
+
+    // reflect：News→Drama, Image→News
+    function buildReverse() {
+      Object.entries(matches_drama2news).forEach(([di, list]) => {
+        list.forEach(([ni, sc]) => {
+          (news2drama[ni] = news2drama[ni] || []).push([+di, sc]);
+        });
+      });
+      Object.entries(matches_news2img_idx).forEach(([ni, list]) => {
+        list.forEach(([ii, sc]) => {
+          (img2news[ii] = img2news[ii] || []).push([+ni, sc]);
+        });
+      });
+    }
+
+    // 1) Drama → News
+    function searchNews() {
+      const di = +document.getElementById('dramaSelect').value;
+      const lst = matches_drama2news[di] || [];
+      populate('newsSelect', lst.map(([ni, sc]) => `${news_texts[ni].slice(0, 60)}… (${sc.toFixed(3)})`));
+      // modify option value to real news index
+      Array.from(document.getElementById('newsSelect').options)
+        .forEach((o, i) => o.value = lst[i][0]);
+      document.getElementById('news-section').style.display = lst.length ? 'block' : 'none';
+      document.getElementById('image-section').style.display = 'none';
+      document.getElementById('drama2-section').style.display = 'none';
+    }
+
+    // 2) News → Image
+    function searchImages() {
+      const ni = +document.getElementById('newsSelect').value;
+      const lst = matches_news2img_idx[ni] || [];
+      const ctr = document.getElementById('imageResults');
+      ctr.innerHTML = '';
+      lst.forEach(([ii, sc]) => {
+        const img = document.createElement('img');
+        img.src = 'added%20image/' + encodeURIComponent(image_names[ii]);
+        img.title = `${image_names[ii]} (${sc.toFixed(3)})`;
+        img.onclick = () => searchDrama(ii);
+        ctr.appendChild(img);
+      });
+      document.getElementById('image-section').style.display = lst.length ? 'block' : 'none';
+      document.getElementById('drama2-section').style.display = 'none';
+    }
+
+    // 3) Image → Drama
+    function searchDrama(ii) {
+      const nlist = img2news[ii] || [];
+      // score：image→news→drama
+      const scores = {};
+      nlist.forEach(([ni, s_img2news]) => {
+        (news2drama[ni] || []).forEach(([di, s_news2drama]) => {
+          scores[di] = (scores[di] || 0) + s_img2news * s_news2drama;
+        });
+      });
+      const sorted = Object.entries(scores)
+        .map(([di, sc]) => [+di, sc])
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 5);
+
+      const ctr = document.getElementById('dramaResults');
+      ctr.innerHTML = '';
+      if (!sorted.length) {
+        ctr.innerHTML = '<em>No match</em>';
+      } else {
+        sorted.forEach(([di, sc]) => {
+          const div = document.createElement('div');
+          div.className = 'item';
+          div.textContent = `[${di}] (${sc.toFixed(3)}) ` + drama_texts[di];
+          ctr.appendChild(div);
+        });
+      }
+      document.getElementById('drama2-section').style.display = 'block';
+    }
+
+    //  data.json
+    fetch('data.json')
+      .then(r => r.json())
+      .then(d => {
+        drama_texts = d.drama_texts;
+        news_texts = d.news_texts;
+        image_names = d.image_names;
+        matches_drama2news = d.matches_drama2news;
+        matches_news2img_idx = d.matches_news2img_idx;
+        buildReverse();
+        populate('dramaSelect', drama_texts);
+      })
+      .catch(err => console.error('Failed to load data.json:', err));
+  </script>
+</body>
+
+</html>
