@@ -1,0 +1,721 @@
+Loaded image features: (908, 768)
+
+>>> Image SOM (CLIP) Training <<<
+
+SOM training took: 0.124230 seconds.
+Epoch  1 → QE=0.4998, TE=0.1586
+SOM training took: 0.118838 seconds.
+Epoch  2 → QE=0.4963, TE=0.1211
+SOM training took: 0.114937 seconds.
+Epoch  3 → QE=0.4999, TE=0.1465
+SOM training took: 0.121854 seconds.
+Epoch  4 → QE=0.4984, TE=0.1674
+SOM training took: 0.118542 seconds.
+Epoch  5 → QE=0.4959, TE=0.1795
+SOM training took: 0.117681 seconds.
+Epoch  6 → QE=0.5008, TE=0.1399
+SOM training took: 0.118464 seconds.
+Epoch  7 → QE=0.4988, TE=0.1619
+SOM training took: 0.116997 seconds.
+Epoch  8 → QE=0.5017, TE=0.1564
+SOM training took: 0.116808 seconds.
+Epoch  9 → QE=0.4972, TE=0.1465
+SOM training took: 0.119147 seconds.
+Epoch 10 → QE=0.5002, TE=0.1795
+SOM training took: 0.116665 seconds.
+Epoch 11 → QE=0.5012, TE=0.1355
+SOM training took: 0.119358 seconds.
+Epoch 12 → QE=0.4996, TE=0.1377
+SOM training took: 0.118158 seconds.
+Epoch 13 → QE=0.4990, TE=0.1531
+SOM training took: 0.118406 seconds.
+Epoch 14 → QE=0.5009, TE=0.1707
+SOM training took: 0.118285 seconds.
+Epoch 15 → QE=0.5013, TE=0.1399
+SOM training took: 0.120650 seconds.
+Epoch 16 → QE=0.5020, TE=0.1421
+SOM training took: 0.117609 seconds.
+Epoch 17 → QE=0.4999, TE=0.1520
+SOM training took: 0.118475 seconds.
+Epoch 18 → QE=0.5016, TE=0.1531
+SOM training took: 0.120818 seconds.
+Epoch 19 → QE=0.4947, TE=0.1509
+SOM training took: 0.117045 seconds.
+Epoch 20 → QE=0.4996, TE=0.1751
+SOM training took: 0.117137 seconds.
+Epoch 21 → QE=0.5058, TE=0.1256
+SOM training took: 0.118794 seconds.
+Epoch 22 → QE=0.4979, TE=0.1487
+SOM training took: 0.123042 seconds.
+Epoch 23 → QE=0.4952, TE=0.1509
+SOM training took: 0.118975 seconds.
+Epoch 24 → QE=0.5007, TE=0.1454
+SOM training took: 0.118875 seconds.
+Epoch 25 → QE=0.5006, TE=0.1641
+SOM training took: 0.118399 seconds.
+Epoch 26 → QE=0.5025, TE=0.1355
+SOM training took: 0.117162 seconds.
+Epoch 27 → QE=0.5017, TE=0.1421
+SOM training took: 0.117594 seconds.
+Epoch 28 → QE=0.5028, TE=0.1311
+SOM training took: 0.119129 seconds.
+Epoch 29 → QE=0.4978, TE=0.1531
+SOM training took: 0.119123 seconds.
+Epoch 30 → QE=0.4974, TE=0.1839
+SOM training took: 0.119672 seconds.
+Epoch 31 → QE=0.4942, TE=0.1663
+SOM training took: 0.116129 seconds.
+Epoch 32 → QE=0.5016, TE=0.1630
+SOM training took: 0.115447 seconds.
+Epoch 33 → QE=0.4995, TE=0.1531
+SOM training took: 0.118453 seconds.
+Epoch 34 → QE=0.4992, TE=0.1630
+SOM training took: 0.117423 seconds.
+Epoch 35 → QE=0.5001, TE=0.1619
+SOM training took: 0.128915 seconds.
+Epoch 36 → QE=0.4963, TE=0.1465
+SOM training took: 0.119968 seconds.
+Epoch 37 → QE=0.4948, TE=0.1432
+SOM training took: 0.117780 seconds.
+Epoch 38 → QE=0.4999, TE=0.1300
+SOM training took: 0.119470 seconds.
+Epoch 39 → QE=0.4998, TE=0.1707
+SOM training took: 0.121454 seconds.
+Epoch 40 → QE=0.4994, TE=0.1575
+SOM training took: 0.117354 seconds.
+Epoch 41 → QE=0.5055, TE=0.1498
+SOM training took: 0.119365 seconds.
+Epoch 42 → QE=0.5023, TE=0.1619
+SOM training took: 0.120480 seconds.
+Epoch 43 → QE=0.5034, TE=0.1509
+SOM training took: 0.122353 seconds.
+Epoch 44 → QE=0.4982, TE=0.1619
+SOM training took: 0.114535 seconds.
+Epoch 45 → QE=0.5018, TE=0.1311
+SOM training took: 0.115569 seconds.
+Epoch 46 → QE=0.5006, TE=0.1366
+SOM training took: 0.120454 seconds.
+Epoch 47 → QE=0.4925, TE=0.1443
+SOM training took: 0.116293 seconds.
+Epoch 48 → QE=0.5013, TE=0.1388
+SOM training took: 0.119781 seconds.
+Epoch 49 → QE=0.4970, TE=0.1707
+SOM training took: 0.121722 seconds.
+Epoch 50 → QE=0.4929, TE=0.1729
+SOM training took: 0.121946 seconds.
+Epoch 51 → QE=0.4965, TE=0.1641
+SOM training took: 0.122499 seconds.
+Epoch 52 → QE=0.5033, TE=0.1443
+SOM training took: 0.122045 seconds.
+Epoch 53 → QE=0.5002, TE=0.1729
+SOM training took: 0.123674 seconds.
+Epoch 54 → QE=0.5034, TE=0.1256
+SOM training took: 0.123088 seconds.
+Epoch 55 → QE=0.5005, TE=0.1222
+SOM training took: 0.117332 seconds.
+Epoch 56 → QE=0.4992, TE=0.1575
+SOM training took: 0.117341 seconds.
+Epoch 57 → QE=0.4986, TE=0.1674
+SOM training took: 0.667817 seconds.
+Epoch 58 → QE=0.5030, TE=0.1817
+SOM training took: 0.652161 seconds.
+Epoch 59 → QE=0.5043, TE=0.1244
+SOM training took: 0.653161 seconds.
+Epoch 60 → QE=0.5041, TE=0.1189
+SOM training took: 0.738281 seconds.
+Epoch 61 → QE=0.4956, TE=0.1608
+SOM training took: 0.113579 seconds.
+Epoch 62 → QE=0.5018, TE=0.1520
+SOM training took: 0.120018 seconds.
+Epoch 63 → QE=0.4964, TE=0.1751
+SOM training took: 0.119151 seconds.
+Epoch 64 → QE=0.4971, TE=0.1553
+SOM training took: 0.116411 seconds.
+Epoch 65 → QE=0.4988, TE=0.1674
+SOM training took: 0.116109 seconds.
+Epoch 66 → QE=0.5034, TE=0.1531
+SOM training took: 0.117428 seconds.
+Epoch 67 → QE=0.4953, TE=0.1311
+SOM training took: 0.114350 seconds.
+Epoch 68 → QE=0.5019, TE=0.1564
+SOM training took: 0.117221 seconds.
+Epoch 69 → QE=0.4936, TE=0.1531
+SOM training took: 0.116296 seconds.
+Epoch 70 → QE=0.5043, TE=0.1575
+SOM training took: 0.116702 seconds.
+Epoch 71 → QE=0.4961, TE=0.1564
+SOM training took: 0.115999 seconds.
+Epoch 72 → QE=0.4990, TE=0.1564
+SOM training took: 0.118258 seconds.
+Epoch 73 → QE=0.5019, TE=0.1377
+SOM training took: 0.113854 seconds.
+Epoch 74 → QE=0.4975, TE=0.1432
+SOM training took: 0.121672 seconds.
+Epoch 75 → QE=0.4991, TE=0.1751
+SOM training took: 0.121629 seconds.
+Epoch 76 → QE=0.5019, TE=0.1476
+SOM training took: 0.723035 seconds.
+Epoch 77 → QE=0.4948, TE=0.1685
+SOM training took: 0.669247 seconds.
+Epoch 78 → QE=0.4928, TE=0.1773
+SOM training took: 0.658593 seconds.
+Epoch 79 → QE=0.5020, TE=0.1366
+SOM training took: 0.641477 seconds.
+Epoch 80 → QE=0.5022, TE=0.1079
+SOM training took: 0.654408 seconds.
+Epoch 81 → QE=0.4983, TE=0.1553
+SOM training took: 0.401205 seconds.
+Epoch 82 → QE=0.4938, TE=0.1443
+SOM training took: 0.117798 seconds.
+Epoch 83 → QE=0.5010, TE=0.1443
+SOM training took: 0.116904 seconds.
+Epoch 84 → QE=0.5014, TE=0.1333
+SOM training took: 0.115765 seconds.
+Epoch 85 → QE=0.5072, TE=0.1817
+SOM training took: 0.120780 seconds.
+Epoch 86 → QE=0.4988, TE=0.1575
+SOM training took: 0.116746 seconds.
+Epoch 87 → QE=0.4980, TE=0.1531
+SOM training took: 0.117116 seconds.
+Epoch 88 → QE=0.4984, TE=0.1388
+SOM training took: 0.396170 seconds.
+Epoch 89 → QE=0.5010, TE=0.1421
+SOM training took: 0.661799 seconds.
+Epoch 90 → QE=0.5022, TE=0.1079
+SOM training took: 0.658265 seconds.
+Epoch 91 → QE=0.5054, TE=0.1421
+SOM training took: 0.711270 seconds.
+Epoch 92 → QE=0.4919, TE=0.1729
+SOM training took: 0.641201 seconds.
+Epoch 93 → QE=0.5025, TE=0.1443
+SOM training took: 0.791531 seconds.
+Epoch 94 → QE=0.4997, TE=0.1520
+SOM training took: 0.117760 seconds.
+Epoch 95 → QE=0.5030, TE=0.0859
+SOM training took: 0.119222 seconds.
+Epoch 96 → QE=0.4962, TE=0.1553
+SOM training took: 0.118555 seconds.
+Epoch 97 → QE=0.4995, TE=0.1619
+SOM training took: 0.116252 seconds.
+Epoch 98 → QE=0.5011, TE=0.1454
+SOM training took: 0.113517 seconds.
+Epoch 99 → QE=0.4989, TE=0.1817
+SOM training took: 0.115849 seconds.
+Epoch 100 → QE=0.4993, TE=0.1685
+SOM training took: 0.115386 seconds.
+Epoch 101 → QE=0.4979, TE=0.1663
+SOM training took: 0.116439 seconds.
+Epoch 102 → QE=0.5022, TE=0.1619
+SOM training took: 0.117750 seconds.
+Epoch 103 → QE=0.4935, TE=0.1509
+SOM training took: 0.120509 seconds.
+Epoch 104 → QE=0.4984, TE=0.1586
+SOM training took: 0.117351 seconds.
+Epoch 105 → QE=0.4997, TE=0.1300
+SOM training took: 0.114135 seconds.
+Epoch 106 → QE=0.4962, TE=0.1575
+SOM training took: 0.112819 seconds.
+Epoch 107 → QE=0.4929, TE=0.1751
+SOM training took: 0.612800 seconds.
+Epoch 108 → QE=0.5026, TE=0.1388
+SOM training took: 0.588720 seconds.
+Epoch 109 → QE=0.4986, TE=0.1520
+SOM training took: 0.602206 seconds.
+Epoch 110 → QE=0.4983, TE=0.1289
+SOM training took: 0.615704 seconds.
+Epoch 111 → QE=0.4949, TE=0.1134
+SOM training took: 0.572605 seconds.
+Epoch 112 → QE=0.4942, TE=0.1531
+SOM training took: 0.623760 seconds.
+Epoch 113 → QE=0.5063, TE=0.1465
+SOM training took: 0.632451 seconds.
+Epoch 114 → QE=0.4951, TE=0.1729
+SOM training took: 0.617053 seconds.
+Epoch 115 → QE=0.4967, TE=0.1696
+SOM training took: 0.641710 seconds.
+Epoch 116 → QE=0.4939, TE=0.1520
+SOM training took: 0.629205 seconds.
+Epoch 117 → QE=0.4958, TE=0.1806
+SOM training took: 0.601488 seconds.
+Epoch 118 → QE=0.5011, TE=0.1344
+SOM training took: 0.589014 seconds.
+Epoch 119 → QE=0.4964, TE=0.1564
+SOM training took: 0.606104 seconds.
+Epoch 120 → QE=0.5037, TE=0.1641
+SOM training took: 0.606788 seconds.
+Epoch 121 → QE=0.4984, TE=0.1608
+SOM training took: 0.592046 seconds.
+Epoch 122 → QE=0.5002, TE=0.1795
+SOM training took: 0.115471 seconds.
+Epoch 123 → QE=0.5019, TE=0.1476
+SOM training took: 0.117242 seconds.
+Epoch 124 → QE=0.5013, TE=0.1674
+SOM training took: 0.114505 seconds.
+Epoch 125 → QE=0.4955, TE=0.1233
+SOM training took: 0.635871 seconds.
+Epoch 126 → QE=0.4962, TE=0.1487
+SOM training took: 0.588886 seconds.
+Epoch 127 → QE=0.4978, TE=0.1531
+SOM training took: 0.665396 seconds.
+Epoch 128 → QE=0.4982, TE=0.1718
+SOM training took: 0.117409 seconds.
+Epoch 129 → QE=0.4985, TE=0.1597
+SOM training took: 0.118601 seconds.
+Epoch 130 → QE=0.5034, TE=0.1388
+SOM training took: 0.118603 seconds.
+Epoch 131 → QE=0.5004, TE=0.1355
+SOM training took: 0.120815 seconds.
+Epoch 132 → QE=0.5025, TE=0.1388
+SOM training took: 0.117187 seconds.
+Epoch 133 → QE=0.4983, TE=0.1751
+SOM training took: 0.117442 seconds.
+Epoch 134 → QE=0.5026, TE=0.1388
+SOM training took: 0.115545 seconds.
+Epoch 135 → QE=0.4962, TE=0.1696
+SOM training took: 0.115097 seconds.
+Epoch 136 → QE=0.5000, TE=0.1652
+SOM training took: 0.115382 seconds.
+Epoch 137 → QE=0.5031, TE=0.1531
+SOM training took: 0.121817 seconds.
+Epoch 138 → QE=0.4973, TE=0.1355
+SOM training took: 0.114801 seconds.
+Epoch 139 → QE=0.4999, TE=0.1344
+SOM training took: 0.117461 seconds.
+Epoch 140 → QE=0.4958, TE=0.1586
+SOM training took: 0.114669 seconds.
+Epoch 141 → QE=0.4989, TE=0.1432
+SOM training took: 0.122293 seconds.
+Epoch 142 → QE=0.4989, TE=0.1333
+SOM training took: 0.119170 seconds.
+Epoch 143 → QE=0.4954, TE=0.1718
+SOM training took: 0.115757 seconds.
+Epoch 144 → QE=0.5004, TE=0.1267
+SOM training took: 0.118284 seconds.
+Epoch 145 → QE=0.4978, TE=0.1388
+SOM training took: 0.119918 seconds.
+Epoch 146 → QE=0.4947, TE=0.1377
+SOM training took: 0.113419 seconds.
+Epoch 147 → QE=0.5012, TE=0.1487
+SOM training took: 0.630657 seconds.
+Epoch 148 → QE=0.5014, TE=0.1267
+SOM training took: 0.642987 seconds.
+Epoch 149 → QE=0.4987, TE=0.1630
+SOM training took: 0.638103 seconds.
+Epoch 150 → QE=0.5070, TE=0.1454
+SOM training took: 0.660895 seconds.
+Epoch 151 → QE=0.4987, TE=0.1531
+SOM training took: 0.669185 seconds.
+Epoch 152 → QE=0.4996, TE=0.1806
+SOM training took: 0.117588 seconds.
+Epoch 153 → QE=0.4990, TE=0.1773
+SOM training took: 0.113289 seconds.
+Epoch 154 → QE=0.5000, TE=0.1465
+SOM training took: 0.115480 seconds.
+Epoch 155 → QE=0.5027, TE=0.1619
+SOM training took: 0.119446 seconds.
+Epoch 156 → QE=0.4987, TE=0.1443
+SOM training took: 0.118849 seconds.
+Epoch 157 → QE=0.5009, TE=0.1476
+SOM training took: 0.118329 seconds.
+Epoch 158 → QE=0.4988, TE=0.1454
+SOM training took: 0.117259 seconds.
+Epoch 159 → QE=0.4962, TE=0.1487
+SOM training took: 0.116472 seconds.
+Epoch 160 → QE=0.5016, TE=0.1586
+SOM training took: 0.117256 seconds.
+Epoch 161 → QE=0.4982, TE=0.1663
+SOM training took: 0.118532 seconds.
+Epoch 162 → QE=0.4973, TE=0.1597
+SOM training took: 0.116180 seconds.
+Epoch 163 → QE=0.4963, TE=0.1608
+SOM training took: 0.117602 seconds.
+Epoch 164 → QE=0.4970, TE=0.1366
+SOM training took: 0.633160 seconds.
+Epoch 165 → QE=0.4977, TE=0.1377
+SOM training took: 0.622996 seconds.
+Epoch 166 → QE=0.4970, TE=0.1454
+SOM training took: 0.626526 seconds.
+Epoch 167 → QE=0.5032, TE=0.1388
+SOM training took: 0.118541 seconds.
+Epoch 168 → QE=0.4997, TE=0.1586
+SOM training took: 0.116199 seconds.
+Epoch 169 → QE=0.5015, TE=0.1410
+SOM training took: 0.112629 seconds.
+Epoch 170 → QE=0.4989, TE=0.1487
+SOM training took: 0.118882 seconds.
+Epoch 171 → QE=0.5022, TE=0.1520
+SOM training took: 0.113040 seconds.
+Epoch 172 → QE=0.5026, TE=0.1487
+SOM training took: 0.112682 seconds.
+Epoch 173 → QE=0.5012, TE=0.1454
+SOM training took: 0.113015 seconds.
+Epoch 174 → QE=0.5023, TE=0.1575
+SOM training took: 0.120861 seconds.
+Epoch 175 → QE=0.4945, TE=0.1498
+SOM training took: 0.114667 seconds.
+Epoch 176 → QE=0.4999, TE=0.1465
+SOM training took: 0.117580 seconds.
+Epoch 177 → QE=0.5011, TE=0.1619
+SOM training took: 0.111975 seconds.
+Epoch 178 → QE=0.4959, TE=0.1476
+SOM training took: 0.115671 seconds.
+Epoch 179 → QE=0.5015, TE=0.1575
+SOM training took: 0.116650 seconds.
+Epoch 180 → QE=0.5003, TE=0.1410
+SOM training took: 0.663074 seconds.
+Epoch 181 → QE=0.4987, TE=0.1751
+SOM training took: 0.120345 seconds.
+Epoch 182 → QE=0.4968, TE=0.1674
+SOM training took: 0.112259 seconds.
+Epoch 183 → QE=0.5019, TE=0.1465
+SOM training took: 0.112322 seconds.
+Epoch 184 → QE=0.5031, TE=0.1586
+SOM training took: 0.114074 seconds.
+Epoch 185 → QE=0.4984, TE=0.1597
+SOM training took: 0.638980 seconds.
+Epoch 186 → QE=0.4991, TE=0.1663
+SOM training took: 0.648695 seconds.
+Epoch 187 → QE=0.4948, TE=0.1685
+SOM training took: 0.569563 seconds.
+Epoch 188 → QE=0.5041, TE=0.1619
+SOM training took: 0.598409 seconds.
+Epoch 189 → QE=0.5025, TE=0.1652
+SOM training took: 0.588433 seconds.
+Epoch 190 → QE=0.4986, TE=0.1663
+SOM training took: 0.606411 seconds.
+Epoch 191 → QE=0.4969, TE=0.1421
+SOM training took: 0.608631 seconds.
+Epoch 192 → QE=0.5001, TE=0.1421
+SOM training took: 0.133154 seconds.
+Epoch 193 → QE=0.4957, TE=0.1399
+SOM training took: 0.110288 seconds.
+Epoch 194 → QE=0.5009, TE=0.1531
+SOM training took: 0.111200 seconds.
+Epoch 195 → QE=0.5015, TE=0.1619
+SOM training took: 0.609263 seconds.
+Epoch 196 → QE=0.5000, TE=0.1553
+SOM training took: 0.596933 seconds.
+Epoch 197 → QE=0.4998, TE=0.1366
+SOM training took: 0.588069 seconds.
+Epoch 198 → QE=0.4959, TE=0.1751
+SOM training took: 0.602189 seconds.
+Epoch 199 → QE=0.5006, TE=0.1399
+SOM training took: 0.600563 seconds.
+Epoch 200 → QE=0.5057, TE=0.1267
+
+>>> Image SOM (CLIP) Training End <<<
+
+
+DINOv1 training started.
+
+Epoch   3 → QE=28.0546, TE=0.1872
+Epoch:   4%|▍         | 4/100 [00:43<17:13, 10.76s/it]Epoch   4 → QE=28.8418, TE=0.1465
+Epoch:   5%|▌         | 5/100 [00:53<17:01, 10.75s/it]Epoch   5 → QE=27.4523, TE=0.0859
+Epoch:   6%|▌         | 6/100 [01:04<16:43, 10.68s/it]Epoch   6 → QE=27.4774, TE=0.2610
+Epoch:   7%|▋         | 7/100 [01:15<16:27, 10.62s/it]Epoch   7 → QE=27.8822, TE=0.1211
+Epoch:   8%|▊         | 8/100 [01:25<16:11, 10.56s/it]Epoch   8 → QE=28.1526, TE=0.1894
+Epoch:   9%|▉         | 9/100 [01:36<16:02, 10.57s/it]Epoch   9 → QE=27.6817, TE=0.2522
+Epoch:  10%|█         | 10/100 [01:46<15:52, 10.58s/it]Epoch  10 → QE=28.4801, TE=0.0914
+Epoch:  11%|█         | 11/100 [01:57<15:42, 10.59s/it]Epoch  11 → QE=28.6630, TE=0.1024
+Epoch:  12%|█▏        | 12/100 [02:07<15:33, 10.61s/it]Epoch  12 → QE=28.0130, TE=0.2511
+Epoch:  13%|█▎        | 13/100 [02:18<15:24, 10.63s/it]Epoch  13 → QE=27.2933, TE=0.2081
+Epoch:  14%|█▍        | 14/100 [02:29<15:14, 10.64s/it]Epoch  14 → QE=27.4580, TE=0.1200
+Epoch:  15%|█▌        | 15/100 [02:39<15:02, 10.62s/it]Epoch  15 → QE=28.1000, TE=0.0771
+Epoch:  16%|█▌        | 16/100 [02:50<14:49, 10.59s/it]Epoch  16 → QE=27.4761, TE=0.1707
+Epoch:  17%|█▋        | 17/100 [03:00<14:39, 10.60s/it]Epoch  17 → QE=30.0548, TE=0.3051
+Epoch:  18%|█▊        | 18/100 [03:11<14:31, 10.63s/it]Epoch  18 → QE=27.7765, TE=0.2037
+Epoch:  19%|█▉        | 19/100 [03:22<14:23, 10.66s/it]Epoch  19 → QE=28.9794, TE=0.2621
+Epoch:  20%|██        | 20/100 [03:33<14:15, 10.69s/it]Epoch  20 → QE=28.5715, TE=0.1828
+Epoch:  21%|██        | 21/100 [03:43<14:03, 10.67s/it]Epoch  21 → QE=27.1144, TE=0.1883
+Epoch:  22%|██▏       | 22/100 [03:54<13:51, 10.66s/it]Epoch  22 → QE=28.0487, TE=0.1894
+Epoch:  23%|██▎       | 23/100 [04:05<13:39, 10.64s/it]Epoch  23 → QE=28.2630, TE=0.1663
+Epoch:  24%|██▍       | 24/100 [04:15<13:29, 10.65s/it]Epoch  24 → QE=28.4874, TE=0.1211
+Epoch:  25%|██▌       | 25/100 [04:26<13:17, 10.63s/it]Epoch  25 → QE=27.7849, TE=0.2203
+Epoch:  26%|██▌       | 26/100 [04:36<13:05, 10.61s/it]Epoch  26 → QE=27.4649, TE=0.1839
+Epoch:  27%|██▋       | 27/100 [04:47<12:51, 10.57s/it]Epoch  27 → QE=28.2060, TE=0.1388
+Epoch:  28%|██▊       | 28/100 [04:57<12:39, 10.55s/it]Epoch  28 → QE=27.8090, TE=0.1795
+Epoch:  29%|██▉       | 29/100 [05:08<12:31, 10.59s/it]Epoch  29 → QE=28.4621, TE=0.1839
+Epoch:  30%|███       | 30/100 [05:19<12:22, 10.61s/it]Epoch  30 → QE=27.1007, TE=0.1399
+Epoch:  31%|███       | 31/100 [05:30<12:20, 10.73s/it]Epoch  31 → QE=27.6310, TE=0.1817
+Epoch:  32%|███▏      | 32/100 [05:40<12:09, 10.73s/it]Epoch  32 → QE=27.8704, TE=0.2687
+Epoch:  33%|███▎      | 33/100 [05:51<12:03, 10.79s/it]Epoch  33 → QE=27.7411, TE=0.1806
+Epoch:  34%|███▍      | 34/100 [06:02<11:50, 10.77s/it]Epoch  34 → QE=26.9017, TE=0.2357
+Epoch:  35%|███▌      | 35/100 [06:13<11:39, 10.76s/it]Epoch  35 → QE=27.6658, TE=0.1784
+Epoch:  36%|███▌      | 36/100 [06:30<13:33, 12.71s/it]Epoch  36 → QE=28.2731, TE=0.2819
+Epoch:  37%|███▋      | 37/100 [06:40<12:38, 12.04s/it]Epoch  37 → QE=27.7281, TE=0.1729
+Epoch:  38%|███▊      | 38/100 [06:51<11:55, 11.54s/it]Epoch  38 → QE=27.8524, TE=0.2192
+Epoch:  39%|███▉      | 39/100 [07:02<11:28, 11.28s/it]Epoch  39 → QE=28.0655, TE=0.1498
+Epoch:  40%|████      | 40/100 [07:12<11:10, 11.18s/it]Epoch  40 → QE=27.3521, TE=0.1344
+Epoch:  41%|████      | 41/100 [07:33<13:39, 13.89s/it]Epoch  41 → QE=26.8537, TE=0.1333
+Epoch:  42%|████▏     | 42/100 [08:39<28:31, 29.51s/it]Epoch  42 → QE=27.6784, TE=0.1630
+Epoch:  43%|████▎     | 43/100 [09:10<28:24, 29.91s/it]Epoch  43 → QE=27.2820, TE=0.2236
+Epoch:  44%|████▍     | 44/100 [09:26<24:09, 25.89s/it]Epoch  44 → QE=26.8774, TE=0.1002
+Epoch:  45%|████▌     | 45/100 [09:36<19:26, 21.21s/it]Epoch  45 → QE=27.2417, TE=0.2423
+Epoch:  46%|████▌     | 46/100 [09:47<16:07, 17.91s/it]Epoch  46 → QE=27.9220, TE=0.1090
+Epoch:  47%|████▋     | 47/100 [09:57<13:46, 15.60s/it]Epoch  47 → QE=27.8064, TE=0.1828
+Epoch:  48%|████▊     | 48/100 [10:07<12:07, 13.99s/it]Epoch  48 → QE=27.9335, TE=0.1729
+Epoch:  49%|████▉     | 49/100 [10:17<10:56, 12.88s/it]Epoch  49 → QE=27.2419, TE=0.2225
+Epoch:  50%|█████     | 50/100 [10:28<10:04, 12.09s/it]Epoch  50 → QE=27.2363, TE=0.1707
+Epoch:  51%|█████     | 51/100 [10:38<09:28, 11.60s/it]Epoch  51 → QE=27.2756, TE=0.1322
+Epoch:  52%|█████▏    | 52/100 [10:48<09:00, 11.27s/it]Epoch  52 → QE=27.2865, TE=0.1806
+Epoch:  53%|█████▎    | 53/100 [10:59<08:39, 11.06s/it]Epoch  53 → QE=27.5270, TE=0.2522
+Epoch:  54%|█████▍    | 54/100 [11:10<08:21, 10.90s/it]Epoch  54 → QE=27.9679, TE=0.1542
+Epoch:  55%|█████▌    | 55/100 [11:20<08:06, 10.81s/it]Epoch  55 → QE=28.4213, TE=0.1278
+Epoch:  56%|█████▌    | 56/100 [11:31<07:57, 10.86s/it]Epoch  56 → QE=27.5508, TE=0.1707
+Epoch:  57%|█████▋    | 57/100 [11:42<07:44, 10.80s/it]Epoch  57 → QE=28.7816, TE=0.1046
+Epoch:  58%|█████▊    | 58/100 [11:54<07:46, 11.11s/it]Epoch  58 → QE=27.5384, TE=0.1927
+Epoch:  59%|█████▉    | 59/100 [12:06<07:49, 11.44s/it]Epoch  59 → QE=26.9225, TE=0.0925
+Epoch:  60%|██████    | 60/100 [12:18<07:48, 11.71s/it]Epoch  60 → QE=27.7026, TE=0.2500
+Epoch:  61%|██████    | 61/100 [12:30<07:41, 11.83s/it]Epoch  61 → QE=27.3974, TE=0.3469
+Epoch:  62%|██████▏   | 62/100 [12:42<07:33, 11.93s/it]Epoch  62 → QE=27.7073, TE=0.2324
+Epoch:  63%|██████▎   | 63/100 [12:55<07:23, 11.99s/it]Epoch  63 → QE=27.3475, TE=0.1894
+Epoch:  64%|██████▍   | 64/100 [13:07<07:13, 12.04s/it]Epoch  64 → QE=27.4002, TE=0.3205
+Epoch:  65%|██████▌   | 65/100 [13:19<07:02, 12.06s/it]Epoch  65 → QE=27.4306, TE=0.1300
+Epoch:  66%|██████▌   | 66/100 [13:31<06:50, 12.07s/it]Epoch  66 → QE=26.4915, TE=0.2258
+Epoch:  67%|██████▋   | 67/100 [13:43<06:38, 12.08s/it]Epoch  67 → QE=27.2396, TE=0.2764
+Epoch:  68%|██████▊   | 68/100 [13:55<06:26, 12.06s/it]Epoch  68 → QE=27.3383, TE=0.2665
+Epoch:  69%|██████▉   | 69/100 [14:07<06:15, 12.10s/it]Epoch  69 → QE=26.7337, TE=0.1421
+Epoch:  70%|███████   | 70/100 [14:20<06:10, 12.36s/it]Epoch  70 → QE=27.5507, TE=0.2974
+Epoch:  71%|███████   | 71/100 [14:33<06:04, 12.57s/it]Epoch  71 → QE=27.4715, TE=0.2643
+Epoch:  72%|███████▏  | 72/100 [14:46<05:56, 12.75s/it]Epoch  72 → QE=27.1546, TE=0.1784
+Epoch:  73%|███████▎  | 73/100 [14:59<05:45, 12.78s/it]Epoch  73 → QE=27.2260, TE=0.1311
+Epoch:  74%|███████▍  | 74/100 [15:12<05:32, 12.81s/it]Epoch  74 → QE=28.1315, TE=0.2423
+Epoch:  75%|███████▌  | 75/100 [15:25<05:23, 12.92s/it]Epoch  75 → QE=26.7663, TE=0.1432
+Epoch:  76%|███████▌  | 76/100 [15:39<05:12, 13.00s/it]Epoch  76 → QE=27.0740, TE=0.2753
+Epoch:  77%|███████▋  | 77/100 [15:52<05:03, 13.21s/it]Epoch  77 → QE=26.9676, TE=0.2070
+Epoch:  78%|███████▊  | 78/100 [16:24<06:54, 18.86s/it]Epoch  78 → QE=27.6969, TE=0.1399
+Epoch:  79%|███████▉  | 79/100 [17:33<11:46, 33.67s/it]Epoch  79 → QE=27.1320, TE=0.2302
+Epoch:  80%|████████  | 80/100 [17:45<09:03, 27.17s/it]Epoch  80 → QE=27.1803, TE=0.2115
+Epoch:  81%|████████  | 81/100 [17:57<07:09, 22.63s/it]Epoch  81 → QE=27.7003, TE=0.1850
+Epoch:  82%|████████▏ | 82/100 [18:09<05:50, 19.45s/it]Epoch  82 → QE=26.4013, TE=0.2170
+Epoch:  83%|████████▎ | 83/100 [18:21<04:56, 17.41s/it]Epoch  83 → QE=26.8429, TE=0.1784
+Epoch:  84%|████████▍ | 84/100 [18:34<04:16, 16.05s/it]Epoch  84 → QE=27.1885, TE=0.1949
+Epoch:  85%|████████▌ | 85/100 [18:47<03:47, 15.14s/it]Epoch  85 → QE=27.4294, TE=0.1817
+Epoch:  86%|████████▌ | 86/100 [19:00<03:22, 14.46s/it]Epoch  86 → QE=26.5790, TE=0.1795
+Epoch:  87%|████████▋ | 87/100 [19:13<03:02, 14.03s/it]Epoch  87 → QE=26.7258, TE=0.1652
+Epoch:  88%|████████▊ | 88/100 [19:26<02:44, 13.68s/it]Epoch  88 → QE=26.9484, TE=0.2665
+Epoch:  89%|████████▉ | 89/100 [19:39<02:27, 13.43s/it]Epoch  89 → QE=27.0857, TE=0.2676
+Epoch:  90%|█████████ | 90/100 [19:52<02:13, 13.31s/it]Epoch  90 → QE=26.6673, TE=0.1553
+Epoch:  91%|█████████ | 91/100 [20:05<01:59, 13.27s/it]Epoch  91 → QE=26.9335, TE=0.2511
+Epoch:  92%|█████████▏| 92/100 [20:18<01:45, 13.18s/it]Epoch  92 → QE=26.6728, TE=0.1674
+Epoch:  93%|█████████▎| 93/100 [20:31<01:31, 13.09s/it]Epoch  93 → QE=28.2336, TE=0.1751
+Epoch:  94%|█████████▍| 94/100 [20:44<01:18, 13.06s/it]Epoch  94 → QE=26.6510, TE=0.1278
+Epoch:  95%|█████████▌| 95/100 [20:57<01:05, 13.03s/it]Epoch  95 → QE=27.3159, TE=0.1740
+Epoch:  96%|█████████▌| 96/100 [21:10<00:52, 13.03s/it]Epoch  96 → QE=27.4047, TE=0.2467
+Epoch:  97%|█████████▋| 97/100 [21:23<00:38, 12.99s/it]Epoch  97 → QE=28.0486, TE=0.1784
+Epoch:  98%|█████████▊| 98/100 [21:36<00:25, 13.00s/it]Epoch  98 → QE=27.4004, TE=0.1564
+Epoch:  99%|█████████▉| 99/100 [21:49<00:12, 12.94s/it]Epoch  99 → QE=26.8497, TE=0.1960
+Epoch: 100%|██████████| 100/100 [22:01<00:00, 13.22s/it]Epoch 100 → QE=27.1149, TE=0.1729
+
+🏆 Best Epoch: 82 (QE=26.4013, TE=0.2170)
+
+>>> TF-IDF SOM Training Start <<<
+
+Epoch  1 → QE=0.7237, TE=0.0580
+Epoch  2 → QE=0.7155, TE=0.0460
+Epoch  3 → QE=0.7096, TE=0.0500
+Epoch  4 → QE=0.7153, TE=0.0420
+Epoch  5 → QE=0.7311, TE=0.0580
+Epoch  6 → QE=0.7198, TE=0.0360
+Epoch  7 → QE=0.7040, TE=0.0620
+Epoch  8 → QE=0.7178, TE=0.0540
+Epoch  9 → QE=0.7154, TE=0.0480
+Epoch 10 → QE=0.7193, TE=0.0200
+Epoch 11 → QE=0.7210, TE=0.1040
+Epoch 12 → QE=0.7300, TE=0.0500
+Epoch 13 → QE=0.7324, TE=0.0580
+Epoch 14 → QE=0.7170, TE=0.0480
+Epoch 15 → QE=0.7185, TE=0.0860
+Epoch 16 → QE=0.7141, TE=0.0180
+Epoch 17 → QE=0.7003, TE=0.0380
+Epoch 18 → QE=0.7180, TE=0.0300
+Epoch 19 → QE=0.7153, TE=0.0600
+Epoch 20 → QE=0.7249, TE=0.0200
+Epoch 21 → QE=0.7259, TE=0.0460
+Epoch 22 → QE=0.7173, TE=0.0400
+Epoch 23 → QE=0.7280, TE=0.0400
+Epoch 24 → QE=0.7121, TE=0.0380
+Epoch 25 → QE=0.7069, TE=0.0420
+Epoch 26 → QE=0.7050, TE=0.0440
+Epoch 27 → QE=0.7086, TE=0.0260
+Epoch 28 → QE=0.7206, TE=0.0320
+Epoch 29 → QE=0.7232, TE=0.0800
+Epoch 30 → QE=0.7154, TE=0.0620
+Epoch 31 → QE=0.7164, TE=0.0600
+Epoch 32 → QE=0.7053, TE=0.0280
+Epoch 33 → QE=0.7143, TE=0.0300
+Epoch 34 → QE=0.7210, TE=0.0360
+Epoch 35 → QE=0.7281, TE=0.0320
+Epoch 36 → QE=0.7136, TE=0.0300
+Epoch 37 → QE=0.7102, TE=0.0320
+Epoch 38 → QE=0.7050, TE=0.0760
+Epoch 39 → QE=0.7292, TE=0.0660
+Epoch 40 → QE=0.7447, TE=0.0280
+Epoch 41 → QE=0.7237, TE=0.0580
+Epoch 42 → QE=0.7117, TE=0.0400
+Epoch 43 → QE=0.7207, TE=0.0380
+Epoch 44 → QE=0.7324, TE=0.0380
+Epoch 45 → QE=0.7145, TE=0.0440
+Epoch 46 → QE=0.7154, TE=0.0500
+Epoch 47 → QE=0.7025, TE=0.0540
+Epoch 48 → QE=0.7146, TE=0.0220
+Epoch 49 → QE=0.7187, TE=0.0360
+Epoch 50 → QE=0.7131, TE=0.0600
+Epoch 51 → QE=0.7385, TE=0.0860
+Epoch 52 → QE=0.7015, TE=0.0720
+Epoch 53 → QE=0.7084, TE=0.0460
+Epoch 54 → QE=0.7234, TE=0.0100
+Epoch 55 → QE=0.7234, TE=0.0360
+Epoch 56 → QE=0.7116, TE=0.0380
+Epoch 57 → QE=0.7187, TE=0.0240
+Epoch 58 → QE=0.7172, TE=0.0400
+Epoch 59 → QE=0.7063, TE=0.0680
+Epoch 60 → QE=0.6966, TE=0.0800
+Epoch 61 → QE=0.7180, TE=0.0420
+Epoch 62 → QE=0.7029, TE=0.0760
+Epoch 63 → QE=0.7278, TE=0.0280
+Epoch 64 → QE=0.7114, TE=0.0380
+Epoch 65 → QE=0.7349, TE=0.0600
+Epoch 66 → QE=0.7291, TE=0.0180
+Epoch 67 → QE=0.7161, TE=0.0340
+Epoch 68 → QE=0.7157, TE=0.0780
+Epoch 69 → QE=0.7107, TE=0.0580
+Epoch 70 → QE=0.7150, TE=0.0600
+Epoch 71 → QE=0.7130, TE=0.0380
+Epoch 72 → QE=0.7021, TE=0.0560
+Epoch 73 → QE=0.7055, TE=0.0680
+Epoch 74 → QE=0.7009, TE=0.0440
+Epoch 75 → QE=0.7065, TE=0.0500
+Epoch 76 → QE=0.7166, TE=0.0380
+Epoch 77 → QE=0.7137, TE=0.0520
+Epoch 78 → QE=0.7114, TE=0.0580
+Epoch 79 → QE=0.7265, TE=0.0540
+Epoch 80 → QE=0.7286, TE=0.0380
+Epoch 81 → QE=0.7134, TE=0.0360
+Epoch 82 → QE=0.7259, TE=0.0620
+Epoch 83 → QE=0.7122, TE=0.0480
+Epoch 84 → QE=0.7048, TE=0.0500
+Epoch 85 → QE=0.7265, TE=0.0280
+Epoch 86 → QE=0.7188, TE=0.0540
+Epoch 87 → QE=0.7000, TE=0.0440
+Epoch 88 → QE=0.7042, TE=0.0200
+Epoch 89 → QE=0.7238, TE=0.0180
+Epoch 90 → QE=0.7322, TE=0.0340
+Epoch 91 → QE=0.7157, TE=0.0320
+Epoch 92 → QE=0.7361, TE=0.0380
+Epoch 93 → QE=0.7037, TE=0.0480
+Epoch 94 → QE=0.7017, TE=0.0500
+Epoch 95 → QE=0.7008, TE=0.0900
+Epoch 96 → QE=0.7181, TE=0.0680
+Epoch 97 → QE=0.7071, TE=0.0920
+Epoch 98 → QE=0.7601, TE=0.0880
+Epoch 99 → QE=0.7146, TE=0.0760
+Epoch 100 → QE=0.7396, TE=0.0360
+
+>>> TF-IDF SOM Training End <<<
+
+
+>>> Doc2Vec SOM Training Start <<<
+
+Epoch  1 → QE=0.1795, TE=0.2620
+Epoch  2 → QE=0.1805, TE=0.2520
+Epoch  3 → QE=0.1796, TE=0.2860
+Epoch  4 → QE=0.1795, TE=0.2220
+Epoch  5 → QE=0.1793, TE=0.2720
+Epoch  6 → QE=0.1798, TE=0.2640
+Epoch  7 → QE=0.1798, TE=0.2540
+Epoch  8 → QE=0.1798, TE=0.2540
+Epoch  9 → QE=0.1798, TE=0.3120
+Epoch 10 → QE=0.1799, TE=0.2940
+Epoch 11 → QE=0.1801, TE=0.2820
+Epoch 12 → QE=0.1808, TE=0.2840
+Epoch 13 → QE=0.1808, TE=0.2440
+Epoch 14 → QE=0.1801, TE=0.2320
+Epoch 15 → QE=0.1795, TE=0.2840
+Epoch 16 → QE=0.1800, TE=0.2460
+Epoch 17 → QE=0.1795, TE=0.3040
+Epoch 18 → QE=0.1800, TE=0.2680
+Epoch 19 → QE=0.1796, TE=0.3040
+Epoch 20 → QE=0.1820, TE=0.2640
+Epoch 21 → QE=0.1813, TE=0.2980
+Epoch 22 → QE=0.1795, TE=0.2960
+Epoch 23 → QE=0.1811, TE=0.2620
+Epoch 24 → QE=0.1799, TE=0.2720
+Epoch 25 → QE=0.1801, TE=0.2520
+Epoch 26 → QE=0.1788, TE=0.2780
+Epoch 27 → QE=0.1807, TE=0.2660
+Epoch 28 → QE=0.1806, TE=0.2480
+Epoch 29 → QE=0.1805, TE=0.2440
+Epoch 30 → QE=0.1813, TE=0.2760
+Epoch 31 → QE=0.1797, TE=0.3040
+Epoch 32 → QE=0.1810, TE=0.2720
+Epoch 33 → QE=0.1798, TE=0.2460
+Epoch 34 → QE=0.1820, TE=0.2260
+Epoch 35 → QE=0.1793, TE=0.2820
+Epoch 36 → QE=0.1796, TE=0.2680
+Epoch 37 → QE=0.1815, TE=0.2840
+Epoch 38 → QE=0.1808, TE=0.2780
+Epoch 39 → QE=0.1794, TE=0.2620
+Epoch 40 → QE=0.1805, TE=0.2720
+Epoch 41 → QE=0.1796, TE=0.2920
+Epoch 42 → QE=0.1800, TE=0.2580
+Epoch 43 → QE=0.1816, TE=0.2580
+Epoch 44 → QE=0.1813, TE=0.2820
+Epoch 45 → QE=0.1811, TE=0.2480
+Epoch 46 → QE=0.1796, TE=0.2800
+Epoch 47 → QE=0.1808, TE=0.2840
+Epoch 48 → QE=0.1816, TE=0.2780
+Epoch 49 → QE=0.1803, TE=0.2940
+Epoch 50 → QE=0.1800, TE=0.2960
+Epoch 51 → QE=0.1801, TE=0.3080
+Epoch 52 → QE=0.1791, TE=0.2580
+Epoch 53 → QE=0.1802, TE=0.2660
+Epoch 54 → QE=0.1801, TE=0.3080
+Epoch 55 → QE=0.1810, TE=0.2860
+Epoch 56 → QE=0.1799, TE=0.2900
+Epoch 57 → QE=0.1805, TE=0.2820
+Epoch 58 → QE=0.1800, TE=0.2600
+Epoch 59 → QE=0.1804, TE=0.2740
+Epoch 60 → QE=0.1808, TE=0.2600
+Epoch 61 → QE=0.1799, TE=0.3120
+Epoch 62 → QE=0.1810, TE=0.2620
+Epoch 63 → QE=0.1798, TE=0.2520
+Epoch 64 → QE=0.1806, TE=0.2600
+Epoch 65 → QE=0.1796, TE=0.2860
+Epoch 66 → QE=0.1789, TE=0.2920
+Epoch 67 → QE=0.1807, TE=0.2840
+Epoch 68 → QE=0.1795, TE=0.3140
+Epoch 69 → QE=0.1799, TE=0.3100
+Epoch 70 → QE=0.1806, TE=0.2500
+Epoch 71 → QE=0.1803, TE=0.2700
+Epoch 72 → QE=0.1805, TE=0.3020
+Epoch 73 → QE=0.1795, TE=0.2660
+Epoch 74 → QE=0.1792, TE=0.2520
+Epoch 75 → QE=0.1802, TE=0.2520
+Epoch 76 → QE=0.1799, TE=0.2820
+Epoch 77 → QE=0.1790, TE=0.2520
+Epoch 78 → QE=0.1800, TE=0.2680
+Epoch 79 → QE=0.1796, TE=0.3040
+Epoch 80 → QE=0.1802, TE=0.2740
+Epoch 81 → QE=0.1814, TE=0.2620
+Epoch 82 → QE=0.1801, TE=0.2780
+Epoch 83 → QE=0.1803, TE=0.2840
+Epoch 84 → QE=0.1804, TE=0.2720
+Epoch 85 → QE=0.1802, TE=0.2800
+Epoch 86 → QE=0.1802, TE=0.2540
+Epoch 87 → QE=0.1796, TE=0.2720
+Epoch 88 → QE=0.1801, TE=0.2760
+Epoch 89 → QE=0.1802, TE=0.2760
+Epoch 90 → QE=0.1806, TE=0.2600
+Epoch 91 → QE=0.1795, TE=0.2280
+Epoch 92 → QE=0.1793, TE=0.3040
+Epoch 93 → QE=0.1800, TE=0.2420
+Epoch 94 → QE=0.1811, TE=0.2560
+Epoch 95 → QE=0.1790, TE=0.2920
+Epoch 96 → QE=0.1791, TE=0.3160
+Epoch 97 → QE=0.1796, TE=0.2740
+Epoch 98 → QE=0.1797, TE=0.2520
+Epoch 99 → QE=0.1791, TE=0.2700
+Epoch 100 → QE=0.1799, TE=0.2720
+
+>>> Doc2Vec SOM Training End <<<
